@@ -1,0 +1,17 @@
+.imgSelector {
+  padding: 0;
+}
+
+.thumbs {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thumbWithMarker {
+  position: relative;
+}
+
+.thumbWithMarker svg {
+  position: absolute;
+}

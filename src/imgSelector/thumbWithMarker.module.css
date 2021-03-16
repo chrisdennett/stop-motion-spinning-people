@@ -1,0 +1,7 @@
+.thumbWithMarker {
+  position: relative;
+}
+
+.thumbWithMarker svg {
+  position: absolute;
+}
