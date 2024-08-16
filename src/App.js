@@ -3,7 +3,7 @@ import "./App.css";
 import ImagePointEditor from "./imagePointEditor/ImagePointEditor";
 import ImgSelector from "./imgSelector/ImgSelector";
 import ThumbAnimator from "./thumbAnimator/ThumbAnimator";
-// import GifMaker from "./GifMaker";
+import GifMaker from "./GifMaker";
 
 function App() {
   const [currImgIndex, setCurrImgIndex] = useState(0);
@@ -35,7 +35,7 @@ function App() {
         imgIndex={currImgIndex}
       />
 
-      {/* <GifMaker /> */}
+      <GifMaker />
     </div>
   );
 }
